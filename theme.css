@@ -1,0 +1,159 @@
+@-moz-document url-prefix("https://forum.cfx.re/") {
+:root {
+    --primary: rgba(255, 255, 255, 0.7) !important;
+    --secondary: rgb(37, 40, 55);
+    --third: rgb(31, 33, 46);
+    --tertiary: rgb(255, 255, 255);
+    --quaternary: hsl(207, 38%, 40%);
+    --header_background: #ff5722;
+    --header_primary: #000;
+    --highlight: #ffeb3b;
+    --danger: #f44336;
+    --success: #4caf50;
+    --love: #fa6c8d;
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 33, 33, 33;
+    --primary-low-rgb: 232.8, 232.8, 232.8;
+    --secondary-rgb: 250, 250, 250;
+    --header_background-rgb: 255, 87, 34;
+    --tertiary-rgb: 255, 87, 34;
+    --primary-very-low: rgb(31, 33, 46);
+    --primary-low: hsl(207, 38%, 40%);
+    --primary-low-mid: #ffffff;
+    --primary-medium: #ffffff;
+    --primary-high: #ffffff;
+    --primary-very-high: #424242;
+    --header_primary-low: #e6e6e6;
+    --header_primary-low-mid: #b3b3b3;
+    --header_primary-medium: gray;
+    --header_primary-high: #4d4d4d;
+    --header_primary-very-high: #262626;
+    --secondary-low: #4b4b4b;
+    --secondary-medium: #7d7d7d;
+    --secondary-high: #a3a3a3;
+    --secondary-very-high: #e9e9e9;
+
+    --tertiary-low: #ffe6de14;
+    --tertiary-medium: #ffab91;
+    --tertiary-high: #ff794e;
+    --tertiary-hover: #ffffff1f;
+    --quaternary-low: #fff;
+    --highlight-low: #fff9c4;
+    --highlight-medium: #f9f9f912;
+    --highlight-high: #9d8d00;
+
+    --danger-low: #fde3e1;
+    --danger-low-mid: rgba(250, 161, 155, 0.7);
+    --danger-medium: #f77b72;
+    --danger-hover: #e21b0c;
+
+    --success-low: #dbefdc;
+    --success-medium: #a5d8a7;
+    --success-hover: #3d8c40;
+    --love-low: #fee9ee;
+    --wiki: green;
+
+    --blend-primary-secondary-5: #ffffff14;
+    --primary-med-or-secondary-med: #cecece;
+    --primary-med-or-secondary-high: #ffffff;
+    --primary-high-or-secondary-low: #ffffff;
+    --primary-low-mid-or-secondary-high: #bcbcbc;
+    --primary-low-mid-or-secondary-low: #bcbcbc;
+    --primary-or-primary-low-mid: #212121;
+
+    --highlight-low-or-medium: #fff9c4;
+    --tertiary-low-or-tertiary-high: rgb(51, 56, 77);
+    --tertiary-med-or-tertiary: rgb(51, 56, 77);
+    --secondary-or-primary: #fafafa;
+
+    --tertiary-or-white: #fafafa;
+    --facebook-or-white: #4267b2;
+    --twitter-or-white: #1da1f2;
+    --hljs-comment: #998;
+    --hljs-number: #099;
+    --hljs-string: #d14;
+    --hljs-literal: #458;
+    --hljs-tag: #000080;
+    --hljs-attribute: #008080;
+    --hljs-symbol: #990073;
+    --hljs-bg: #f8f8f8;
+
+    --google: #fff;
+    --google-hover: #f2f2f2;
+    --instagram: #e1306c;
+    --instagram-hover: #ac194b;
+    --facebook: #4267b2;
+    --facebook-hover: #2d477a;
+    --cas: #70ba61;
+    --twitter: #1da1f2;
+    --twitter-hover: #0c85d0;
+    --github: #100e0f;
+    --github-hover: #463e42;
+    --discord: #7289da;
+    --discord-hover: #4a67cf;
+    --gold: #e7c300;
+    --silver: silver;
+    --bronze: #cd7f32;
+}
+
+.category-list,
+.topic-list,
+.latest-topic-list {
+    box-shadow: 0 1px 1px 0 #e1e4e8, 0 0 0 0 #e1e4e8;
+    background-color: var(--secondary);
+}
+
+/*tbody {
+    border-top: none;
+}*/
+.nav-pills > li.active > a,
+.nav-pills > li > a.active {
+    color: var(--primary) !important;
+    background-color: var(--primary-low);
+    border-bottom: 3px solid var(--primary);
+}
+
+.user-card .card-content,
+.group-card .card-content .user-main .about .details .about.collapsed-info {
+    background: none;
+}
+
+.user-main .about.collapsed-info .details {
+    background: bottom;
+}
+
+.user-main .about .details {
+    background: none;
+}
+
+.topic-body {
+    background-color: var(--third);
+}
+
+.heatmap-high,
+.heatmap-high a {
+    color: var(--primary) !important;
+}
+
+.topic-map .avatars,
+.topic-map .links,
+.topic-map .information {
+    background-color: var(--third);
+    color: var(--primary);
+}
+
+.topic-map {
+    border: none;
+    border-top: none;
+}
+
+.widget-button.btn.create,
+#create-topic.btn-default {
+    background-color: var(--primary-low);
+}
+
+.badge-notification.new-posts,
+.badge-notification.unread-posts {
+    color: var(--primaary);
+}
+}
